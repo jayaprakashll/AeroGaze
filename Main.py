@@ -34,8 +34,8 @@ try:
         # capture_image("image.jpg")
 
         # Running Yolo
-        # decision = run(weights=weight, source="image.jpg", conf_thres=conf)
-        decision = (0, 101.5, 0, 86.25, 'Quadrant 3')
+        decision = run(weights=weight, source="image.jpg", conf_thres=conf)
+        #decision = (0, 101.5, 0, 86.25, 'Quadrant 3')
 
         # Moving to helipad
         print("Taken by AI....")
