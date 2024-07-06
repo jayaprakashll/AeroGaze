@@ -14,7 +14,7 @@ try:
 
     destlat = float(input())
     destlong = float(input())
-    destlat, destlong = 12.971730433350809,80.04374350577795
+    #destlat, destlong = 12.971730433350809,80.04374350577795
 
     # Taking off
     arm_and_takeoff(vehicle, altitude)
